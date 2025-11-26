@@ -1,0 +1,150 @@
+/* Firefox (uncomment to work in Firefox, although other properties will not work!)  */
+/** {
+  scrollbar-width: thin;
+  scrollbar-color: #B3B3B3 #DFE9EB;
+}*/
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: #DFE9EB;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #B8C0C2;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #B8C0C2;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #B3B3B3;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #A3A3A3;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #FFFFFF;
+}
+
+
+
+/* Reset some default browser styles */
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   
+  
+}
+/* Set a base font size for easier rem calculations */
+html {
+   font-size: 62.5%; /* 1rem = 10px */
+    transition: transform 2s ease-in;
+   
+}
+/* Ensure images don't exceed their container's width */
+img {
+   display: block;
+   max-width: 100%;
+}
+/* Remove default list styles */
+ul,
+ol {
+   list-style: none;
+   padding-left: 0;
+}
+/* Enhance link underlines */
+a {
+   text-underline-position: under;
+   text-decoration-thickness: 0.1em;
+}
+/* Smooth scrolling for better user experience */
+html {
+   scroll-behavior: smooth;
+    background:black;
+}
+/* Provide interactive elements with a pointer cursor */
+button,
+input[type="submit"],
+input[type="button"] {
+   cursor: pointer;
+}
+/*-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////--*/
+
+.nav_bar{width:98vw;height:5vh;background:white;margin:auto;margin-top:2vw;border-radius:5vw;position:relative;}
+.logo{background-image:url("logo2.png");width:18vw;height:11vh;background-size:90%;
+background-repeat:no-repeat;background-position:center;position:absolute;top:-2.5vh;filter: drop-shadow(5px 2px 3px white);}
+.menu{width:5vw;height:3vh;background:#8dc6ff;border-radius:50px;position:absolute;right:2vw;top:1vh;}
+.burger-menu{position:absolute;width:0px;height:0px;border:1px solid white;right:2vw;background:white;display:none;}
+.options{text-align:center;color:black;font-size:2rem;border-bottom:1px solid white;BACKGROUND:WHITE;}
+.op1{border-bottom:1px solid black;transition:1s;}
+.op1:hover{color:white;background:black;}
+
+.container{width:98vw;margin:auto;border:1px solid transparent;height:230vh;margin-top:3vh;}
+.main_products{width:98%;height:60vh;border:1px solid none;margin-left:1%;margin-top:8%;border-radius:2vw;}
+.product_banner{width:55%;height:94%;border:1px solid none;margin:1%;display:inline-block;float:left;
+background-image:url("brands.png");background-size:cover;background-repeat:no-repeat;background-position:center;transition:1s;}
+.product_banner:hover{background-image:url("banner2.jpg");background-size:cover;background-repeat:no-repeat;background-position:center;}
+.product_choices{display:inline-block;width:40%;height:94%;border-left:1px solid white;margin:1%;padding:1%;float:left;}
+.color{width:10vw;height:12vh;background:white;border-radius:50%;display:inline-block;margin-left:2.5%;margin-top:10%;}
+
+
+
+#c1{background:purple;}
+#c1:hover{background-image:url("Luandal.png");background-size:cover;background-repeat:no-repeat;background-position:center;transition-duration:2s;}
+#c2{background:red;}
+#c2:hover{background-image:url("aenxrd.png");background-size:cover;background-repeat:no-repeat;background-position:center;transition-duration:2s;}
+#c3{background:orange;}
+#c3:hover{background-image:url("anchi.png");background-size:cover;background-repeat:no-repeat;background-position:center;transition-duration:2s;}
+#c4{background:FUCHSIA;}
+#c4:hover{background-image:url("promax.png");background-size:cover;background-repeat:no-repeat;background-position:center;transition-duration:2s;}
+#c5{background:white;transition-duration:2s;}
+#c5:hover{background-image:url("arun.png");background-size:cover;background-repeat:no-repeat;background-position:center;transition-duration:2s;}
+#c6{background:yellow;}
+#c6:hover{background-image:url("toseek.png");background-size:cover;background-repeat:no-repeat;background-position:center;transition-duration:2s;}
+#c7{background:lightgreen;}
+#c7:hover{background-image:url("fengsl.png");background-size:cover;background-repeat:no-repeat;background-position:center;transition-duration:2s;}
+#c8{background:lightblue;}
+#c8:hover{background-image:url("simon.png");background-size:cover;background-repeat:no-repeat;background-position:center;transition-duration:2s;}
+#c9{background:gray;}
+#c9:hover{background-image:url("garuda.png");background-size:cover;background-repeat:no-repeat;background-position:center;transition-duration:2s;}
+
+
+.second_container{width:98%;height:100vh;border-bottom:1px solid white;margin-left:1%;margin-top:20%;border-radius:0 0 1vw 1vw;
+filter: drop-shadow(5px 2px 3px transparent);}
+.marquee_section{width:100%;height:15vh;border-bottom:1px solid white;border-radius:5vw 5vw 0 0;background-image:url("h1.jpg");background-size:cover;background-repeat:no-repeat;background-position:center;}
+.products{width:100%;height:85%;border:5px solid none;overflow-x:hidden;overflow-y:auto;position:relative;}
+/*.lists{width:100%;height:100%;border:3px solid yellow;}*/
+.prod{width:20vw;height:20vh;border:1px solid white;display:inline-block;margin-left:4vw;margin:3%;}
+.just_banner{width:10vw;height:75vh;position:fixed;left:80vw;top:20vh;background: #2A7B9B;
+background-image:url("b2.jpg");background-size:cover;background-repeat:no-repeat;background-position:center;transition-duration:2s;
+border-radius:1vw;filter: drop-shadow(2px 2px 1px black);}
+.just_banner:hover{background-image:url("b1.jpg");background-size:cover;background-repeat:no-repeat;background-position:center;transition-duration:2s;}
+
+footer{background:black;color:gray;width:100%;height:30vh;}
+.copyright{text-align:center;font-size:2rem}
+.foot-logo{width:30vw;height:20vh;margin:auto;
+background-image:url("logo2.png");background-size:100%;background-repeat:no-repeat;background-position:center;}
+
+
+@media(orientation:portrait){
+	.product_banner{display:block;width:100%;height:60%;}
+	.product_choices{display:block;width:100%;height:20%;border-top:1px solid white;border-left:none;}
+     .color{width:10vw;height:6vh;}
+	 .options{font-size:1rem;}
+	 
+	 .marquee_section{background-size:150vw;}
+	 .prod{height:10vh;width:22vw;margin-left:.5px;}
+	 .just_banner{width:20vw;left:75vw;}
+}
